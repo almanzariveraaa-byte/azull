@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuestionario de Contacto</title>
+  <style>
+    body {
+      background: #1e3a8a;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .contenedor {
+      background: #ffffff;
+      width: 480px;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #e0a3a3;
+      box-shadow: 3px 3px 10px #ccc;
+      margin: 20px;
+    }
+    h2 {
+      color: black;
+      margin-top: 0;
+    }
+    input[type="text"], select, textarea {
+      border: 1px solid #b88;
+      border-radius: 6px;
+      padding: 5px;
+      margin-top: 3px;
+    }
+    textarea { width: 95%; }
+  </style>
+</head>
+<body>
+
+<div class="contenedor">
+  <h2>CUESTIONARIO DE CONTACTO</h2>
+
+  <p><b>¿Cuál es la naturaleza de tu comentario?</b><br>
+  <input type="radio" name="tipo"> Recomendación<br>
+  <input type="radio" name="tipo"> Oferta de trabajo<br>
+  <input type="radio" name="tipo"> Comunicación<br>
+  <input type="radio" name="tipo"> Queja
+  </p>
+
+  <p><b>Educación:</b><br>
+  <select>
+    <option>Técnico</option>
+    <option>Preparatoria</option>
+    <option>Universidad</option>
+  </select>
+  </p>
+
+  <p><b>Comentarios:</b><br>
+  <textarea rows="4"></textarea>
+  </p>
+
+  <p><b>¿Cómo puedo comunicarme contigo?</b><br>
+  Nombre: <input type="text"><br>
+  Correo electrónico: <input type="text"><br>
+  Teléfono: <input type="text">
+  </p>
+
+  <p>
+  <input type="checkbox" checked> Comunícate conmigo vía correo electrónico.<br>
+  <input type="checkbox"> Comunícate conmigo por teléfono.
+  </p>
+
+  <p><b>¿Cuál es tu opinión de mi página Web?</b><br>
+  <input type="radio" name="opinion"> Excelente<br>
+  <input type="radio" name="opinion"> Buena<br>
+  <input type="radio" name="opinion"> Regular<br>
+  <input type="radio" name="opinion"> Mala
+  </p>
+
+  <input type="submit" value="Enviar">
+
+</div>
+
+</body>
+</html>
